@@ -1,11 +1,5 @@
-osbyn
-osbyn
-skogsangen
-skogsangen
-halsoboden
-halsoboden
-osbyn
-skogsangen
-halsoboden
-grandprix
 centrum
+grandprix
+halsoboden
+osbyn
+skogsangen

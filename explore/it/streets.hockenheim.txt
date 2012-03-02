@@ -1,5 +1,3 @@
-nurburgring
-pitstop
 avus
 bellof
 berger
@@ -10,7 +8,9 @@ hill
 lauda
 mansell
 montecarlo
+nurburgring
 oktan
+pitstop
 schumacher
 senna
 silberpfeil

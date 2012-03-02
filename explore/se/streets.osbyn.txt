@@ -7,8 +7,8 @@ cykel
 ellfjuss
 flas
 fotbolls
-hammar
 hall
+hammar
 innersparet
 kanot
 klatter
@@ -16,13 +16,13 @@ oringen
 parne
 pjax
 rally
-rydell
 rasun
+rydell
 skids
 skrid
 slalom
 snowboard
-speedway
 sparvagen
+speedway
 varpavagen
 wiberget

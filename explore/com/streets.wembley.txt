@@ -5,6 +5,8 @@ anfield
 batty
 beckenbauer
 beckham
+dell
+den
 elland
 ewood
 filbert
@@ -21,7 +23,6 @@ maine
 mueller
 noucamp
 oakwell
-trafford
 owen
 paulince
 pride
@@ -30,12 +31,11 @@ roker
 sansiro
 selhurst
 soccer
-stjames
 stamford
+stjames
 stockport
-dell
-den
-valley
+trafford
 upton
+valley
 villa
 whitehartlane

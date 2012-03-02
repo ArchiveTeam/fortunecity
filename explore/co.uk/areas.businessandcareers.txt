@@ -1,16 +1,4 @@
 business
-business
-stockmarket
-stockmarket
-business
-stockmarket
 campus
 skyscraper
-business
-business
 stockmarket
-stockmarket
-business
-stockmarket
-campus
-skyscraper

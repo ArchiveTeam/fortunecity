@@ -1,8 +1,5 @@
-kvarteretskulpturen
-kvarteretskulpturen
-svedala
-svedala
-gladahuset
-svedala
-globetrottern
 centrum
+gladahuset
+globetrottern
+kvarteretskulpturen
+svedala

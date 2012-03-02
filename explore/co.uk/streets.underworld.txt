@@ -11,9 +11,9 @@ platform
 platformpoint
 pub
 puzzle
-rpg
 racing
 retro
+rpg
 shoot
 sports
 strategy

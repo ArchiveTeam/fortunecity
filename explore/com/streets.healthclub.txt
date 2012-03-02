@@ -2,8 +2,8 @@ aerobics
 allergy
 basketball
 boxer
-cpr
 calorie
+cpr
 cycle
 diet
 doctor

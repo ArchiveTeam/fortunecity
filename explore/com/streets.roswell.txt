@@ -21,8 +21,8 @@ communion
 conspiracy
 crowley
 crystal
-skulls
 cushing
+daniken
 deva
 divination
 dowsing
@@ -39,9 +39,9 @@ jekyll
 jodrell
 karloff
 king
-lefanu
 leadbeater
 leehigh
+lefanu
 lovecraft
 martinist
 masonic
@@ -64,12 +64,12 @@ shaman
 shelly
 silbury
 siren
+skulls
 spells
 stokes
 streiber
 tarot
 vanthal
-daniken
 vortex
 warminster
 wells

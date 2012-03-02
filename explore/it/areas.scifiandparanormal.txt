@@ -1,7 +1,3 @@
 roswell
-roswell
-scienza
-scienza
-roswell
-scienza
 salute
+scienza

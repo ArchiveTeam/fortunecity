@@ -1,3 +1,4 @@
+appel
 billgates
 chatgatan
 chips
@@ -18,10 +19,9 @@ pcprom
 psion
 sajt
 sega
-spel
 serf
+spel
 vic
 virus
 web
 yahoo
-appel

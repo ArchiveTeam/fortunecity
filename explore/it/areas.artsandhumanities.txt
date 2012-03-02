@@ -1,14 +1,5 @@
 accademia
-accademia
-accademia
 auditorium
-studio
-moda
 casa
-accademia
-accademia
-accademia
-auditorium
-studio
 moda
-casa
+studio

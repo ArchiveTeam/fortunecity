@@ -1,8 +1,4 @@
-spockholm
-spockholm
-blakulla
-blakulla
-blakulla
-spockholm
 arkaden
+blakulla
 centrum
+spockholm

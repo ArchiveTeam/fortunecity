@@ -1,6 +1,5 @@
 amused
 athletes
-singe
 brainy
 celebrity
 conundrum
@@ -14,6 +13,7 @@ mental
 picture
 primate
 puzzler
+singe
 sports
 trivia
 uproar

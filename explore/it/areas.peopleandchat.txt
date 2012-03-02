@@ -1,10 +1,4 @@
-love
-love
-centro
-centro
-studio
-studio
-love
-centro
-studio
 accademia
+centro
+love
+studio

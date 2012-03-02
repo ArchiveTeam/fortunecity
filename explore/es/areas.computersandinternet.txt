@@ -1,16 +1,4 @@
 consola
-consola
-virtual
-virtual
-virtual
-consola
-imaginario
 expertos
-consola
-consola
-virtual
-virtual
-virtual
-consola
 imaginario
-expertos
+virtual

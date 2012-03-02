@@ -1,8 +1,4 @@
-kronan
-kronan
-borsen
-borsen
-kronan
 borsen
 kista
+kronan
 studentstaden

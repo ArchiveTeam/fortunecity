@@ -2,14 +2,15 @@ armaniarkaden
 dallasavenyn
 diamantbacken
 glamour
-graddhyllan
 goranperssonsvag
+graddhyllan
 joakimvonankasgata
 klipp
 miljon
+ostermalm
+palsbacken
 pampgrand
 profit
-palsbacken
 rolexkullen
 shangri-la
 sidenvagen
@@ -25,4 +26,3 @@ tempelbacken
 timandersterrass
 trendgrand
 yuppiehojden
-ostermalm

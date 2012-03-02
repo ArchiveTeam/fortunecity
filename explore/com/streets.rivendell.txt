@@ -7,16 +7,16 @@ battlespire
 caelius
 castle
 chronos
+crisis
 cromwell
 curse
 cyberpunk
 daggerfall
-darkearth
 dark
+darkearth
 darkness
 demons
 diablo
-lair
 dungeon
 elfin
 empiriana
@@ -32,7 +32,6 @@ gallows
 gamers
 goddess
 gothic
-rhydin
 harvester
 health
 henchman
@@ -50,6 +49,7 @@ kender
 knights
 krondor
 krynn
+lair
 legacy
 legend
 legions
@@ -73,7 +73,9 @@ oddworld
 perilith
 princess
 raistlin
+realms
 redguard
+rhydin
 rings
 saint
 sakura
@@ -88,9 +90,7 @@ suikoden
 sword
 tanis
 tekken
-realms
 tiamat
-crisis
 timelapse
 toussard
 traveller

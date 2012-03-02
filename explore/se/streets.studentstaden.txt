@@ -4,14 +4,14 @@ chalmers
 elevhemmet
 examens
 handel
+karhuset
 klass
 kurator
 kursgangen
-karhuset
 laboratoriel
-lektions
 lara
 lax
+lektions
 noll
 norrland
 plugg
