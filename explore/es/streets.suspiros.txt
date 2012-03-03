@@ -1,15 +1,19 @@
+301
 alma
 almendras
 belleza
 besos
 capricho
+carcias
 caricias
 cerezas
 corazon
 deseo
+deseos
 enamorado
 fidelidad
 fuego
+gif
 labios
 lilas
 lirios
@@ -18,3 +22,5 @@ ojos
 pasion
 rosas
 venus
+windows
+WINDOWS

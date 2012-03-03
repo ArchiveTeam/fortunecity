@@ -1,4 +1,6 @@
+action
 adrenaline
+arcade
 archery
 barbecue
 cards

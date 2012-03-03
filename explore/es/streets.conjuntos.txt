@@ -5,6 +5,7 @@ democracia
 ecologia
 historia
 humanista
+humanistas
 libertad
 nuevomundo
 opiniones

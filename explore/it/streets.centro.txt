@@ -16,6 +16,7 @@ monumenti
 nord
 opinioni
 palazzo
+pereferia
 periferia
 politica
 province

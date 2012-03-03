@@ -1,9 +1,13 @@
 aliens
 bruja
+c:
 celestial
 cielos
+contacto
 contactos
 desconocida
+edoger
+edonkey
 encantado
 espacio
 estrellas
@@ -15,6 +19,9 @@ galaxias
 leyendas
 magico
 mistica
+mistico
 mundos
 secreto
+secretos
 suenios
+windows

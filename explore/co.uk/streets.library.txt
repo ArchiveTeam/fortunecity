@@ -1,6 +1,7 @@
 absurd
 biography
 classiccourt
+comedy
 comedycrescent
 fairytale
 fantasy
@@ -17,4 +18,5 @@ scribblings
 story
 suspense
 thrillers
+weekly
 whodunnit

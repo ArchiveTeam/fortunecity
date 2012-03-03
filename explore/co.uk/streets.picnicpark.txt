@@ -2,6 +2,7 @@ abc
 blossom
 castleton
 doddington
+doggington
 eternity
 falmouth
 graduation
@@ -12,6 +13,8 @@ kirkwall
 la-de-da
 lazy
 meadowbank
+meadowbanl
+medowbank
 olde
 parent
 quarrybank
@@ -19,3 +22,4 @@ rainbow
 shopping
 travel
 vacation
+windows

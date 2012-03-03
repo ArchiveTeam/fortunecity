@@ -1,5 +1,7 @@
 alternativa
+archivos+de+programa
 artnouveau
+artnoveau
 barroco
 ciberarte
 clasicismo
@@ -9,8 +11,13 @@ dibujo
 escultura
 etnologica
 fotografia
+fotos
+historia
 howdeeee
 impresionismo
+miltimedia
+mis+documentos
+Mis+documentos
 modernista
 multimedia
 pintura
@@ -19,3 +26,4 @@ posmodernista
 renacimiento
 surrealista
 vanguardista
+windows

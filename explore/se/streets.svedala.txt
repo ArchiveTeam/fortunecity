@@ -1,12 +1,15 @@
 astridlindgrensgata
 brogatan
 drottninggatan
+hemsidan
+Hemsidan
 kungsbacken
 kyrkogatan
 laroverksgatan
 medelvagen
 midsommarbacken
 radhusallen
+silverstigen
 silviastigen
 sjovagen
 skolgrand
@@ -14,7 +17,9 @@ stationsvagen
 storgatan
 svenssonstigen
 tallvagen
+tallv%EF%BF%BDgen
 torggrand
+torgrund
 tradgardsgatan
 vasagatan
 victoriavagen

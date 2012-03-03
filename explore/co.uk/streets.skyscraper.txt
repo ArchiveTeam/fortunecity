@@ -4,6 +4,7 @@ centre
 core
 data
 decimal
+disc
 disk
 floating
 integer

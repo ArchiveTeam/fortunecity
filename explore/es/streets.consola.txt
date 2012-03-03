@@ -1,5 +1,7 @@
+136
 aventura
 castillos
+consola
 cyberjuegos
 demos
 deporte
@@ -10,9 +12,12 @@ favoritos
 freeware
 gorilas
 lucha
+Mis%20documentos
+mis+documentos
 novatos
 obstaculos
 online
+pagina
 secretos
 shareware
 simuladores

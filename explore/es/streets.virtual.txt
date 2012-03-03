@@ -1,5 +1,9 @@
 3d
+602
+archivos+de+programa
 digital
+emp
+EMP
 hardware
 interactiva
 internet
@@ -7,6 +11,8 @@ juegos
 manzanita
 mensajes
 mouse
+nacho
+pagina2
 realidadvirtual
 servicio
 software
@@ -17,4 +23,5 @@ ventanas
 video
 webadas
 webones
+webstore
 zip

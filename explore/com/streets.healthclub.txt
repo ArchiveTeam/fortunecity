@@ -7,6 +7,8 @@ cpr
 cycle
 diet
 doctor
+gifs
+GIFS
 gym
 healthfood
 heart

@@ -11,5 +11,6 @@ marksgata
 paradgatan
 soho
 stolthetensbacke
+widesgata
 wildesgata
 ymca

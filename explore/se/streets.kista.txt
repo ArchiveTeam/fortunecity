@@ -5,6 +5,7 @@ chips
 datafil
 doman
 hacker
+hackers
 itteras
 java
 kanel

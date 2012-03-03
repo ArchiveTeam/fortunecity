@@ -1,7 +1,9 @@
 angeles
 animacion
 anime
+archivos
 batallas
+caballero
 caballeros
 caricatura
 espacial
@@ -13,6 +15,11 @@ inanimado
 infinito
 luna
 manga
+Mis%20Webs
+mis+im%e1genes
+mis+im%EF%BF%BDgenes
+mis+webs
+multimedia
 personajes
 planetario
 soldados

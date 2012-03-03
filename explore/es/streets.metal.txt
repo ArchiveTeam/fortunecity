@@ -1,7 +1,9 @@
 avisos
 canje
+chemicals
 comercial
 compras
+cp,%5Bras
 cursos
 disenio
 educacion
@@ -14,6 +16,9 @@ informatica
 mujer
 noticias
 oportunidades
+pharms
+plmd
+preparaciones
 productos
 profesional
 publicidad

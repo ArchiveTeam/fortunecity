@@ -6,7 +6,9 @@ corridors
 fighting
 flight
 kick
+madchester
 multiplayer
+my+documents
 platform
 platformpoint
 pub
