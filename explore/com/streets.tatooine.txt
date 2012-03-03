@@ -48,6 +48,7 @@ halley
 halojones
 heinlein
 hellblazer
+herbert
 jabba
 kirk
 leguin
@@ -80,6 +81,10 @@ simak
 slaine
 spielberg
 spock
+sputnik
+stephenson
+sturgeon
+swampthing
 t1000
 tharg
 thx1138

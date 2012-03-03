@@ -17,6 +17,7 @@ popcorn
 premier
 python
 romance
+sci
 sci-fi
 thriller
 west
