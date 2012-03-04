@@ -1,10 +1,24 @@
 #!/bin/bash
+# Script for downloading one FortuneCity street from
+# http://www.fortunecity.(com|co.uk|es|it|se)/$AREA/$STREET/
+#
+# Usage:   dld-street.sh ${TLD} ${AREA} ${STREET}
+# where TLD is one of: com co.uk es it se
+#
+# Needs wget-warc.
+#
 
 VERSION="20120304.01"
 
 tld=$1
 area=$2
 street=$3
+
+if [ -z $tld ] || [ -z $area ] || [ -z $street ]
+then
+  echo "No tld, area or street name."
+  exit 1
+fi
 
 USER_AGENT="Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
 USER_AGENT="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
@@ -18,9 +32,10 @@ then
   exit 2
 fi
 
+echo "Downloading ${tld}/${area}/${street}"
+
 rm -rf "$street_dir"
 
-mkdir -p "$street_dir"
 mkdir -p "$street_dir/files"
 
 echo "http://www.fortunecity.$tld/$area/$street/" > "$street_dir/urls.txt"
@@ -57,4 +72,6 @@ fi
 
 mv "$street_dir/$warc_file_base.warc.gz" "$area_dir/$warc_file_base.warc.gz"
 rm -rf "$street_dir"
+
+exit 0
 
