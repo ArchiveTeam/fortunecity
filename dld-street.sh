@@ -29,7 +29,7 @@ street_dir="$area_dir/$street"
 if [ -d "$area_dir" ] && [ ! -z "$( find "$area_dir/" -maxdepth 1 -type f -name "$tld-$area-$street-*.warc.gz" )" ]
 then
   echo "Already downloaded ${tld}/${area}/${street}"
-  exit 2
+  exit 0
 fi
 
 echo "Downloading ${tld}/${area}/${street}"

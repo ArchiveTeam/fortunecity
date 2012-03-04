@@ -28,7 +28,7 @@ member_dir="$prefix_dir/$member"
 if [ -d "$prefix_dir" ] && [ ! -z "$( find "$prefix_dir/" -maxdepth 1 -type f -name "$tld-members-$member-*.warc.gz" )" ]
 then
   echo "Already downloaded ${tld}/members/${member}"
-  exit 2
+  exit 0
 fi
 
 echo "Downloading ${tld}/members/${member}"
