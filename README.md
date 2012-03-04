@@ -16,3 +16,9 @@ Run a download client:
 
     ./dld-client.sh YOURNICK
 
+To stop your script, don't just kill it. Instead:
+
+    touch STOP
+
+and the script will end gracefully after the current item.
+
