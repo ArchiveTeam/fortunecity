@@ -73,5 +73,7 @@ fi
 mv "$street_dir/$warc_file_base.warc.gz" "$area_dir/$warc_file_base.warc.gz"
 rm -rf "$street_dir"
 
+du -hs "$area_dir/$warc_file_base.warc.gz"
+
 exit 0
 

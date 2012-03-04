@@ -66,5 +66,7 @@ fi
 mv "$member_dir/$warc_file_base.warc.gz" "$prefix_dir/$warc_file_base.warc.gz"
 rm -rf "$member_dir"
 
+du -hs "$prefix_dir/$warc_file_base.warc.gz"
+
 exit 0
 
