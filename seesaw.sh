@@ -76,7 +76,7 @@ do
     area=$( echo "$itemname" | cut -d "/" -f 2 )
     street=$( echo "$itemname" | cut -d "/" -f 3 )
 
-    if [ $area == member ]
+    if [ $area == member ] || [ $area == members ]
     then
       ./dld-member.sh "$tld" "$street"
       result=$?
@@ -90,7 +90,7 @@ do
       # complete
 
       # statistics!
-      if [ $area == member ]
+      if [ $area == member ] || [ $area == members ]
       then
         prefix_dir="$tld/members/${street:0:1}/${street:0:2}/${street:0:3}"
         prefix_file="$prefix_dir/$tld-members-$street-"

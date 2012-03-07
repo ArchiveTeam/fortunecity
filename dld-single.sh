@@ -31,7 +31,7 @@ tld=$( echo "$itemname" | cut -d "/" -f 1 )
 area=$( echo "$itemname" | cut -d "/" -f 2 )
 street=$( echo "$itemname" | cut -d "/" -f 3 )
 
-if [ $area == member ]
+if [ $area == member ] || [ $area == members ]
 then
   ./dld-member.sh "$tld" "$street"
   result=$?
@@ -45,7 +45,7 @@ then
   # complete
 
   # statistics!
-  if [ $area == member ]
+  if [ $area == member ] || [ $area == members ]
   then
     prefix_dir="data/$tld/members/${street:0:1}/${street:0:2}/${street:0:3}"
     bytes=$( ./du-helper.sh -b "$prefix_dir/$tld-members-$street-"*".warc.gz" )
