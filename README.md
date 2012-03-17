@@ -24,3 +24,6 @@ and the script will end gracefully after the current item.
 
 If it works you may run a few more clients. But don't run more than 10.
 
+There is no need to run upload-finished.sh. seesaw.sh will automatically
+upload your finished users to us.
+
