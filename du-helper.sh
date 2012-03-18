@@ -16,5 +16,5 @@ elif ( which -s gdu )
 then
   gdu --apparent-size $opts "$userdir" | cut -f 1
 else
-  du -hs "$userdir" | cut -f 1
+  du $opts "$userdir" | cut -f 1
 fi
