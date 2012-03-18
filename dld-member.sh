@@ -21,7 +21,11 @@ fi
 
 USER_AGENT="Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
 USER_AGENT="Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
-USER_AGENT=$( sort -R user-agents.txt | head -n 1 )
+
+if sort --help | grep -q random-sort
+then
+  USER_AGENT=$( sort --random-sort user-agents.txt | head -n 1 )
+fi
 
 prefix_dir="data/$tld/members/${member:0:1}/${member:0:2}/${member:0:3}"
 member_dir="$prefix_dir/$member"
