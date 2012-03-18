@@ -39,9 +39,11 @@ rm -rf "$street_dir"
 mkdir -p "$street_dir/files"
 
 echo "http://www.fortunecity.$tld/$area/$street/" > "$street_dir/urls.txt"
-for i in $( seq 0 2600 )
+i=0
+while [[ $i -le 2600 ]]
 do
   echo "http://www.fortunecity.$tld/$area/$street/$i/"
+  i=$(( i + 1 ))
 done >> "$street_dir/urls.txt"
 
 t=$( date -u +'%Y%m%d-%H%M%S' )
