@@ -40,7 +40,7 @@ fi
 # note: DO NOT USE --partial !
 cd data/
 # ls -1 */members/?/??/???/*.warc.gz */*/*.warc.gz | \
-find -name "*.warc.gz" | grep -E "^\./[^/]+\/(members/./../.../|[^/]+/)[^/]+\.warc\.gz" | \
+find . -name "*.warc.gz" | grep -E "^\./[^/]+\/(members/./../.../|[^/]+/)[^/]+\.warc\.gz" | \
 rsync -avz \
       --compress-level=9 \
       --progress \
