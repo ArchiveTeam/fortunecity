@@ -73,11 +73,18 @@ do
 
   rm $response_file
 
-  # empty?
-  if [ -z $itemname ]
+  # If the response code isn't 200, then something went wrong with the tracker;
+  # try again later.
+  if [ "$tracker_status" != "200" ]
   then
     echo
-    echo "No itemname. Sleeping for 30 seconds..."
+    echo "Tracker returned status code $tracker_status.  Will retry in 30 seconds."
+    echo
+    sleep 30
+  elif [ -z $itemname ]
+  then
+    echo
+    echo "No itemname.  Will retry in 30 seconds."
     echo
     sleep 30
   else
