@@ -60,7 +60,18 @@ do
   echo -n "Getting next username from tracker..."
   tracker_no=$(( RANDOM % 3 ))
   tracker_host="focity-${tracker_no}.heroku.com"
-  itemname=$( curl -s -f -d "{\"downloader\":\"${youralias}\"}" http://${tracker_host}/request )
+  response_file=".seesaw.$$.${tracker_host}_response"
+  itemname=$( curl -s -d "{\"downloader\":\"${youralias}\"}" -D ${response_file} http://${tracker_host}/request )
+
+  # HTTP 420 from the tracker indicates global rate-limiting is in effect
+  tracker_status=$(head -n 1 ${response_file} | cut -c 10-12)
+  if [ "$tracker_status" == "420" ]
+  then
+    echo
+    echo "Tracker rate limiting is in effect."
+  fi
+
+  rm $response_file
 
   # empty?
   if [ -z $itemname ]
