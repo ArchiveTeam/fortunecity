@@ -34,6 +34,12 @@ fi
 bwlimit=$2
 if [ -n "$bwlimit" ]
 then
+  if [[ ! $bwlimit =~ ^[1-9][0-9]*$ ]]
+  then
+    echo "invalid bwlimit value specified."
+    echo "Usage  $0 [yournick] [bwlimit]"
+    exit
+  fi
   bwlimit="--bwlimit=${bwlimit}"
 fi
 

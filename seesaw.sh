@@ -43,6 +43,13 @@ fi
 
 if [ -n "$bwlimit" ]
 then
+  if [[ ! $bwlimit =~ ^[1-9][0-9]*$ ]]
+  then
+    echo "Invalid bandwidth limit specified."
+    echo "Usage:  $0 {nickname} [bwlimit]"
+    echo "If bwlimit is specified, it must be a number, meaning kilobytes per second."
+    exit 4
+  fi
   bwlimit="--bwlimit=${bwlimit}"
 fi
 
