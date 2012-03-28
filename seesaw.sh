@@ -175,8 +175,7 @@ do
       fi
 
     else
-      echo "Error downloading '$itemname'."
-      exit 6
+      echo "Error downloading '$itemname'." >> errors.log
     fi
   fi
 done
