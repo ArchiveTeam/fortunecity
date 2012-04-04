@@ -134,16 +134,28 @@ do
       echo "Uploading ${itemname}..."
 
       cd data
-      ls -1 "$prefix_file"*".warc.gz" | \
-      rsync -avz \
-            --compress-level=9 \
-            --progress \
-            ${bwlimit} \
-            --recursive \
-            --remove-source-files \
-            --files-from="-" \
-            ./ fos.textfiles.com::fortunecity/${youralias}/
-      result=$?
+      result=9
+      while [ $result -ne 0 ]
+      do
+        ls -1 "$prefix_file"*".warc.gz" | \
+        rsync -avz \
+              --compress-level=9 \
+              --progress \
+              ${bwlimit} \
+              --recursive \
+              --remove-source-files \
+              --files-from="-" \
+              ./ fos.textfiles.com::fortunecity/${youralias}/
+        result=$?
+
+        if [ $result -ne 0 ]
+        then
+          echo
+          echo "An rsync error occurred. Sleeping 10 seconds before retrying..."
+          echo
+          sleep 10
+        fi
+      done
       cd ..
 
       if [ $result -eq 0 ]
@@ -176,7 +188,7 @@ do
 
     else
       echo "Error downloading '$itemname'."
-      exit 6
+      sleep 10
     fi
   fi
 done
